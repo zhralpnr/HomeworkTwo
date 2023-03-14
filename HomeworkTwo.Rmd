@@ -1,0 +1,84 @@
+---
+title: 'Ödev 2'
+author: "Buraya Ad-Soyad ve öğrenci numaranızı yazınız"
+---
+
+```{r global_options, include=FALSE}
+library(knitr)
+opts_chunk$set(fig.align="center", fig.height=4, fig.width=5.5)
+```
+
+**Bu ödev sorularını çözmeden önce `tinytex` paketini `install.packages(tinytex)` ve `tinytex::install_tinytex()` komutlarını kullanarak  sisteminize yüklediğinizden emin olunuz.**
+
+\vspace{1cm}
+
+**Soru 1** Ocak ayında kaç dakika olduğunu hesaplayınız.
+
+```{r}
+# Cevabınızı buraya yazınız!
+```
+
+**Soru 2** 3 8 1 4 1 5 9 2 6 12 42 sayılarını *toplama işareti kullanmadan* toplayınız.
+
+```{r}
+# Cevabınızı buraya yazınız!
+```
+
+**Soru 3** `x` adında 1, 0.9, ..., 0, -0.1, ..., -0.9, -1 serisini içeren bir vektör yaratınız ve sonucu yazdırınız.
+
+```{r}
+# Cevabınızı buraya yazınız!
+```
+
+**Soru 4** `"Mülkiye!"` metnini tekrar tekrar yazmadan R'ın bunu 23 defa ekrana yazdırmasını nasıl sağlarız?
+
+```{r}
+# Cevabınızı buraya yazınız!
+```
+
+**Soru 5** `wizards` ve `ranking` adında iki vektör yaratınız.
+`wizards`, Harry, Ron, Fred, George ve Sirius isimlerini, `ranking` ise 4, 2, 5, 1, 3 sayılarını içersin.
+
+```{r}
+# Cevabınızı buraya yazınız!
+```
+
+**Soru 6** `wizards` vektörünün üçünçü ve birinci elemanını yazdırınız.
+
+```{r}
+# Cevabınızı buraya yazınız!
+```
+
+**Soru 7** `wizards` vektöründeki Fred, George ve Sirius isimlerini Hermione, Ginny ve Malfoy isimleri ile değiştiriniz.
+
+```{r}
+# Cevabınızı buraya yazınız!
+```
+
+**Soru 8** Harry Potter okumamış biri bu karakterlerin kimler olduğunu bilmek için etiketlere ihtiyaç duyar.
+`wizards` vektörünün elemanlarına **Lead**, **Friend**, **Friend**, **Wife** ve **Rival** isimlerini veriniz.
+Sonuçları görüntüleyiniz.
+
+```{r}
+# Cevabınızı buraya yazınız!
+```
+
+**Soru 9** İstatistik II ara sınavına 27 öğrenci girmiştir.
+Bu öğrencilerin notları: 18, 95, 76, 90, 84, 83, 80, 79, 63, 76, 55, 78, 90, 81, 42, 88, 89, 92, 73, 83, 72, 85, 66, 77, 82, 99 ve 87 olmuştur.
+Sınav notlarını `scores` isimli bir vektöre kaydediniz.
+Sınav notlarının ortalama, medyan ve aralığını hesaplayınız.
+
+```{r}
+# Cevabınızı buraya yazınız!
+```
+
+**Soru 10** 2017'de Nilay'ın yıllık geliri 22000TL, toplam giderleri 3000TL'dir.
+2018'de yıllık geliri 67000TL, toplam giderleri 23000TL'dir.
+2019'da yıllık geliri 70000TL, toplam giderleri 32000TL'dir.
+Son olarak 2020'de yıllık geliri 72000TL, toplam giderleri 35000TL'dir.
+Bu bilgileri kaydetmek için `years` (yıllar), `income` (gelir) ve `expenses` (gider) adında 3 farklı vektör yaratınız.
+Nilay'ın yıllık tasarruflarını hesaplayınız ve bu değerleri `savings` (tasarruflar) isimli bir vektöre kaydediniz.
+
+```{r}
+# Cevabınızı buraya yazınız!
+```
