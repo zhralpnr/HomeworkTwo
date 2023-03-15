@@ -1,6 +1,6 @@
 ---
 title: 'Ödev 2'
-author: "Buraya Ad-Soyad ve öğrenci numaranızı yazınız"
+author: "Zehra Alpınar 21080531"
 ---
 
 ```{r global_options, include=FALSE}
@@ -8,51 +8,59 @@ library(knitr)
 opts_chunk$set(fig.align="center", fig.height=4, fig.width=5.5)
 ```
 
-**Bu ödev sorularını çözmeden önce `tinytex` paketini `install.packages(tinytex)` ve `tinytex::install_tinytex()` komutlarını kullanarak  sisteminize yüklediğinizden emin olunuz.**
 
 \vspace{1cm}
 
 **Soru 1** Ocak ayında kaç dakika olduğunu hesaplayınız.
 
 ```{r}
-# Cevabınızı buraya yazınız!
+gün <- 31
+saat <- 24
+dakika <- 60
+gün*saat*dakika
 ```
 
 **Soru 2** 3 8 1 4 1 5 9 2 6 12 42 sayılarını *toplama işareti kullanmadan* toplayınız.
 
 ```{r}
-# Cevabınızı buraya yazınız!
+z <- c(3,8,1,4,1,5,9,2,6,12,42)
+sum(z)
 ```
 
 **Soru 3** `x` adında 1, 0.9, ..., 0, -0.1, ..., -0.9, -1 serisini içeren bir vektör yaratınız ve sonucu yazdırınız.
 
 ```{r}
-# Cevabınızı buraya yazınız!
+x <- seq(1, -1, -0.1)
+x
 ```
 
 **Soru 4** `"Mülkiye!"` metnini tekrar tekrar yazmadan R'ın bunu 23 defa ekrana yazdırmasını nasıl sağlarız?
 
 ```{r}
-# Cevabınızı buraya yazınız!
+y <- c("Mülkiye!")
+rep(y,23)
 ```
 
 **Soru 5** `wizards` ve `ranking` adında iki vektör yaratınız.
 `wizards`, Harry, Ron, Fred, George ve Sirius isimlerini, `ranking` ise 4, 2, 5, 1, 3 sayılarını içersin.
 
 ```{r}
-# Cevabınızı buraya yazınız!
+wizards <- c("Harry","Ron", "Fred", "George", "Sirius")
+ranking <- c(4,2,5,1,3)
 ```
 
 **Soru 6** `wizards` vektörünün üçünçü ve birinci elemanını yazdırınız.
 
 ```{r}
-# Cevabınızı buraya yazınız!
+wizards[c(3, 1)]
 ```
 
 **Soru 7** `wizards` vektöründeki Fred, George ve Sirius isimlerini Hermione, Ginny ve Malfoy isimleri ile değiştiriniz.
 
 ```{r}
-# Cevabınızı buraya yazınız!
+wizards[3] <- "Hermione"
+wizards[4] <- "Ginny"
+wizards[5] <- "Malfoy" 
 ```
 
 **Soru 8** Harry Potter okumamış biri bu karakterlerin kimler olduğunu bilmek için etiketlere ihtiyaç duyar.
@@ -60,7 +68,7 @@ opts_chunk$set(fig.align="center", fig.height=4, fig.width=5.5)
 Sonuçları görüntüleyiniz.
 
 ```{r}
-# Cevabınızı buraya yazınız!
+wizards <- c(Lead = "Harry",Friend = "Ron", Friend = "Hermione", Wife = "Ginny", Rival = "Malfoy")
 ```
 
 **Soru 9** İstatistik II ara sınavına 27 öğrenci girmiştir.
@@ -69,7 +77,10 @@ Sınav notlarını `scores` isimli bir vektöre kaydediniz.
 Sınav notlarının ortalama, medyan ve aralığını hesaplayınız.
 
 ```{r}
-# Cevabınızı buraya yazınız!
+scores <- c(18, 95, 76, 90, 84, 83, 80, 79, 63, 76, 55, 78, 90, 81, 42, 88, 89, 92, 73, 83, 72, 85, 66, 77, 82, 99,87)
+mean(scores)
+median(scores)
+range(scores)
 ```
 
 **Soru 10** 2017'de Nilay'ın yıllık geliri 22000TL, toplam giderleri 3000TL'dir.
@@ -80,5 +91,8 @@ Bu bilgileri kaydetmek için `years` (yıllar), `income` (gelir) ve `expenses` (
 Nilay'ın yıllık tasarruflarını hesaplayınız ve bu değerleri `savings` (tasarruflar) isimli bir vektöre kaydediniz.
 
 ```{r}
-# Cevabınızı buraya yazınız!
+years <- c(2017,2018,2019,2020)
+income <- c(22000,67000,70000,72000)
+expenses <- c(3000,23000,32000,35000)
+savings <- c(19000,44000,38000,37000)
 ```
