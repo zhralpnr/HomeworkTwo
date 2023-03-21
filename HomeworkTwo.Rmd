@@ -1,6 +1,7 @@
 ---
-title: 'Ödev 2'
+title: "Ödev 2"
 author: "Zehra Alpınar 21080531"
+output: pdf_document
 ---
 
 ```{r global_options, include=FALSE}
